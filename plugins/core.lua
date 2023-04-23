@@ -20,6 +20,7 @@ return {
       return opts
     end,
   },
+  -- Example config here
   -- {
   --   "nvim-neo-tree/neo-tree.nvim",
   --   config = function(plugin, opts)
