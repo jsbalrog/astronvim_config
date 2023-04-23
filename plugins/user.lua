@@ -11,4 +11,5 @@ return {
   --     require("lsp_signature").setup()
   --   end,
   -- },
+  "windwp/nvim-ts-autotag",
 }
