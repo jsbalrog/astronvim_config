@@ -12,4 +12,14 @@ return {
   --   end,
   -- },
   "windwp/nvim-ts-autotag",
+  {
+    "booperlv/nvim-gomove",
+    event = "BufRead",
+    config = function()
+      require("gomove").setup {
+        map_defaults = true,
+        reindent = true,
+      }
+    end,
+  },
 }

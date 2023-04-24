@@ -17,15 +17,6 @@ return {
       end,
       desc = "Pick to close",
     },
-    -- tables with the `name` key will be registered with which-key if it's installed
-    -- this is useful for naming menus
-    ["<leader>b"] = { name = "Buffers" },
-    -- quick save
-    -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
-    -- [[ Moving ]] --
-    -- Capital H goes to start of line, capital L goes to end of line
-    ["L"] = { "g_" },
-    ["H"] = { "^" },
     ["<leader>f/"] = {
       function()
         require("telescope.builtin").current_buffer_fuzzy_find(require("telescope.themes").get_dropdown {
@@ -35,14 +26,21 @@ return {
       end,
       desc = "[/] Fuzzily search in current buffer]",
     },
+    -- tables with the `name` key will be registered with which-key if it's installed
+    -- this is useful for naming menus
+    ["<leader>b"] = { name = "Buffers" },
+    -- quick save
+    -- ["<C-s>"] = { ":w!<cr>", desc = "Save File" },  -- change description but the same command
+    -- [[ Moving ]] --
+    -- Capital H goes to start of line, capital L goes to end of line
+    ["L"] = { "g_" },
+    ["H"] = { "^" },
   },
   v = {
     -- [[ Moving ]] --
     -- Capital H goes to start of line, capital L goes to end of line
     ["L"] = { "g_" },
     ["H"] = { "^" },
-    ["J"] = { ":m '>+1<CR>gv=gv" }, -- visual mode - move selection down
-    ["K"] = { ":m '<-2<CR>gv=gv" }, -- visual mode - move selection up
   },
   t = {
     -- setting a mapping to false will disable it
