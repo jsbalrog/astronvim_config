@@ -20,17 +20,6 @@ return {
       return opts
     end,
   },
-  -- Example config here
-  -- {
-  --   "nvim-neo-tree/neo-tree.nvim",
-  --   config = function(plugin, opts)
-  --     require("neo-tree").setup {
-  --       window = {
-  --         position = "right",
-  --       },
-  --     }
-  --   end,
-  -- },
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --
