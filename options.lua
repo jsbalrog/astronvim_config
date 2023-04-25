@@ -2,11 +2,13 @@
 return {
   opt = {
     -- set to true or false etc.
-    relativenumber = false, -- sets vim.opt.relativenumber
-    number = true,          -- sets vim.opt.number
-    spell = false,          -- sets vim.opt.spell
-    signcolumn = "auto",    -- sets vim.opt.signcolumn to auto
-    wrap = false,           -- sets vim.opt.wrap
+    relativenumber = false,                  -- sets vim.opt.relativenumber
+    number = true,                           -- sets vim.opt.number
+    spell = false,                           -- sets vim.opt.spell
+    signcolumn = "auto",                     -- sets vim.opt.signcolumn to auto
+    wrap = false,                            -- sets vim.opt.wrap
+    iskeyword = vim.opt.iskeyword + { "-" }, -- sets vim.opt.iskeyword
+    bg = "dark",                             -- sets vim.opt.background
   },
   g = {
     mapleader = " ",                 -- sets vim.g.mapleader

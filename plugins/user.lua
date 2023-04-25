@@ -14,12 +14,16 @@ return {
   "windwp/nvim-ts-autotag",
   {
     "booperlv/nvim-gomove",
-    event = "BufRead",
-    config = function()
-      require("gomove").setup {
-        map_defaults = true,
-        reindent = true,
-      }
-    end,
+    event = "User AstroFile",
+    -- config = function()
+    --   require("gomove").setup {
+    --     map_defaults = true,
+    --     reindent = true,
+    --   }
+    -- end,
+    opts = {
+      map_defaults = true,
+      reindent = true,
+    },
   },
 }
