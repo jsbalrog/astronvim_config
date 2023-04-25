@@ -11,4 +11,5 @@ return {
   { import = "astrocommunity.completion.copilot-lua-cmp" },
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.motion.nvim-surround" },
+  { import = "astrocommunity.utility.neodim" },
 }
