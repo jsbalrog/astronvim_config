@@ -12,4 +12,5 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.utility.neodim" },
+  { import = "astrocommunity.git.git-blame-nvim" },
 }
