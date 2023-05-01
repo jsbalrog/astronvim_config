@@ -20,6 +20,16 @@ return {
       return opts
     end,
   },
+  -- {
+  --   "hrsh7th/nvim-cmp",
+  --   config = function(plugin, opts)
+  --     -- run the core AstroNvim configuration function with the options table
+  --     local cmp = require "cmp"
+  --     cmp.config.sources = {
+  --       { name = "lab.quick_data", keyword_length = 4 },
+  --     }
+  --   end,
+  -- },
   -- You can disable default plugins as follows:
   -- { "max397574/better-escape.nvim", enabled = false },
   --

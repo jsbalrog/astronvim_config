@@ -13,4 +13,5 @@ return {
   { import = "astrocommunity.motion.nvim-surround" },
   { import = "astrocommunity.utility.neodim" },
   { import = "astrocommunity.git.git-blame-nvim" },
+  { import = "astrocommunity.note-taking.obsidian-nvim" },
 }
